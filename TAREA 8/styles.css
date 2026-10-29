@@ -1,0 +1,68 @@
+/* Estilos para un selector de un eleemento */
+
+h2{
+    color: pink;
+}
+
+.color_h2{
+    color: magenta;
+}
+
+#color_h1{
+    color:green ;
+}
+
+.color_estilos_interno{
+    color: brown;
+}
+
+#bg_header{
+    background-color: black;
+}
+
+/* MODELO RGB */
+.color_rgb{
+    background-color: rgb(255,0,0);
+    color: rgb(222 ,111,111);
+}
+
+.color_rgb h3{
+    color: rgb(19, 19, 19);
+}
+
+/* MODELO RGBA */
+
+.color_rgba{
+    background-color: rgba(106, 69, 69, 0.288);
+    color: rgb(115, 43, 43);
+}
+
+.color_hexa{
+    background-color: #4e4e8dc3;
+    color: #1d1d37c4;
+}
+.color_hsl{
+    background-color: hsl(50, 89%, 83%);
+    color: hsl(180, 21%, 18%);
+}
+.color_hsla{
+    background-color: hsla(180, 20%, 40%, 0.575);
+    color: hsla(180, 31%, 21%, 0.575)
+}
+/* MULTINAVEGADOR */
+.black{
+    color: black;
+}
+.white{
+    color: white;
+    background-color: black;
+}
+.salmon{
+    color: salmon;
+}
+.blue{
+    color: blue;
+}
+.lime{
+    color: lime;
+}

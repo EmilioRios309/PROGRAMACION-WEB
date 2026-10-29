@@ -1,51 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Cesar Emilio Lopez Rios">
-    <title>Enlaces o hipervínculos</title>
+  <meta name="author" content="Rafael Rico Mendez">
+  <title>Etiquetas Semanticas y de Formato de Texto 2</title>
 </head>
 <body>
-    <div style="background-color: gray;">
-        <h1>Enlaces o hipervínculos</h1>
-        <p>es una etiqueta html que nos va a permitir interconectar información hacia otras paginas web y hacia nuestra propia pagina</p>
-    </div>
+  <!-- citas cortas -->
+    <p> Como dijo un sabio: "Yo solo se que no se nada" -Sabio </p>
+    <p> Como dijo un sabio: <q>Yo solo se que no se nada</q> -Sabio </p>
 
-    <div>
-        <h2>Enlaces externos</h2>
-        <p>Son los enlaces que te llevan a una pagina web externa</p>
-        <a href="https://www.google.com/" target="_blank" title="Ir a Google">Ir a Google</a>
-    </div>
-
-    <div>
-        <h2>Enlaces internos</h2>
-        <p>Son los enlaces que te llevan a otra pagina web que se encuentra en tu mismo directorio</p>
-        <a href="index_externo.html" target="_self" title="Ir a Sobre Nosotros">Ir a Sobre Nosotros</a>
-    </div>
-
-    <div>
-        <h2>enlaces de anclaje y ancla</h2>
-        <p>Son los enlaces que te llevan a una parte especifica de la misma pagina web</p>
-        <a href="#info" target="_self" title="Ir a la sección de información">Ir a la sección de información</a>
-        <a href="#info2" target="_self" title="Ir a la sección de información 2">Ir a la sección de información 2</a>
-
-    </div>
-    
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-    <div id="info">
-        <h3>Sección de información</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus beatae, corporis quaerat ad officiis dolores accusamus eos natus tenetur architecto reiciendis tempore amet impedit nemo vel praesentium perferendis non. Quo?</p>
-    </div>
-    
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-    <div id="info2">
-        <h3>Sección de información 2</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus beatae, corporis quaerat ad officiis dolores accusamus eos natus tenetur architecto reiciendis tempore amet impedit nemo vel praesentium perferendis non. Quo?</p>
-        <a href="cesaremiliolr@gmail.com" target="_blank" title="Contactar con nosotros">Contactanos por correo</a>
-        <a href="https://wa.me/1234567890" target="_blank" title="Contactar con nosotros">Contactanos por teléfono</a>
-    </div>
+<!-- citas largas -->
+    <p> Como dijo un sabio:</p>
+    <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </blockquote>
+    -Sabio
+    <p> Y otro dijo:</p>
+    <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </blockquote>
+    <br><hr>
+<h2>Saltos de lineas y Reglas Horizontales </h2>
+<p>Estes es el primer parrafo <br><br> Este es el segundo parrafo<br><br> Este es ell tercer parrafo</p>
+<hr>
+    <h2>Visualización y Formato de Código</h2>
+    <p> Cuando nostros implementamos <code>print("Hola mundo")</code> en python la salida en consola será <code>Hola Mundo</code></p>
+    <h3>Visualización de Código en Varias Lineas</h3>
+    <p>Este programa suma los números en python
+    <pre>
+        a = 5
+        b = 6
+        print(a + b)
+    </pre></p>
+    <p>Estecodigo hace un hola mundo en HTML</p>
+    <!--Para escribri caracteres especiales en HTML se utlizan unas etiquetas especiales para aviasar al anvegador como <> -->
+    <pre>
+        &lt;body&gt;
+            &lt;h1&gt;Hola Mundo&lt;/h1&gt;
+        &lt;/body&gt;
+    </pre>
+    <hr>
+    <p>Pra representar la entrada de teclados (teclas) <br>
+    Se utiliza las etiquetas <code>&lt;kbd&gt; &lt;/kbd&gt;</code>
+    </p>
+    <p>Para copiar el texto de un archivo <br>
+    utlizamos la combinacion de teclas <br> <kbd>Ctrl</kbd> + <kbd>C</kbd> <br> y para pegarlo <br> <kbd>Ctrl</kbd> + <kbd>V</kbd> 
+    </p>
 </body>
 </html>
