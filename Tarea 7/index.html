@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Cesar Emilio Lopez Rios">
+    <title>Resumen Html</title>
+</head>
+<body>
+    <header>
+        <section>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6SWgXtKFeauHSfbgcw4IXrGkJgLz6SXXH_-l6z7mmbw&s=10" alt="Gatito">
+        </section>
+        <section>
+            <title>RESUEMEN Y CONTENEDORES SEMANTICOS</title>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="/">inicio</a></li>
+                <li><a href="/">Sobre Nosotros</a></li>
+                <li><a href="/">Contactanos </a></li>
+            </ul>l
+        </nav>
+    </header>
+    <section>
+        <p>Esta pagina va a resumir los principales conceptos y etiquetas</p>
+    </section>
+    <main>
+        <section>
+            <h2>Conceptos Principales HTML </h2>
+            <article>
+                <h3>HTML </h3>
+                <p>Es un Lenguaje de Marcado de Hipertexto es un lenguaje de marca que estructura una pagina web </p>
+            </article>
+            <article>
+                <h3>Elemento HTML</h3>
+                <p>Un elemento HTML es la unidad basica de estructura y contenido en una pagina web, y esta compuesta de: </p>
+                <ul>
+                    <li>Etiquetas de apertura</li>
+                    <li>Atributos</li>
+                    <li>Contenido</li>
+                    <li>Etiqueta de Cierre</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Etiqueta &lt;Head&gt;</h3>
+                <p>Es una etiqueta de metadatos que permite mejorar el SEO ,  a demas se enlazan archivos externos de estilos o scripts</p>
+            </article>
+            <article> 
+                <h3>Etiqueta &lt;body&gt;</h3>
+                <p>Dentro de esta etiqueta va todo el contenido que ve el usuario en nuestra pagina web </p>
+            </article>
+            <article>
+                <h3> Contenedores semanticos</h3>
+            <table border="1px">
+                <tr>
+                    <th>Etiqueta &lt;body&gt;</th>
+                    <td>Puede contener tabla el menu principal , el nombre de la empresa, etc.</td>
+                </tr>
+                <tr>
+                     <th>Etiqueta &lt;nav&gt;</th>
+                    <td>Etiqueta utilizada para el menu de navegacion principal y suele contener enlaces a otras paginas relacionadas o navegar por la pagina principal, no debe haber mas de una en la pagina</td>
+                </tr>
+                <tr>
+                     <th>Etiqueta &lt;main&gt;</th>
+                    <td>Etiqueta unica de una pagina web, cuyo proposito es resaltar nuetsro objetivo o mensaje principal de nuestro sitio web, dentro se colocara el contenido principal de la pagina </td>
+                </tr>
+                <tr>
+                     <th>Etiqueta &lt;Section&gt;</th>
+                    <td>Es una etiqueta que poco a poco se intenta que sustituya a DIV su uso es para dividir a una pagina web en secciones y agrupar contenido relacionado  </td>
+
+                </tr>
+                <tr>
+                     <th>Etiqueta &lt;ARTICLE&gt;</th>
+                    <td>Es una etiqueta que se utiliza para agrupar contenido autonomo que si se separa de otro contenido sigue teniendo coherencia, normalmente se compone de un encabezado y contenido</td>
+                </tr>
+                <tr>
+                     <th>Etiqueta &lt;footer&gt;</th>
+                    <td>Es una etiqueta que norlmante esta al final de una pagina y funciona como cierre del sitio web , a menudo tiene contactos, derecho de autor u otra informacion</td>
+                </tr>
+                <tr>
+                     <tr>
+                        <th>Etiqueta &lt;Aside&gt;</th>
+                        <td>Esta etiqueta representa  una seccion de la pagina web cuyo contenido no esta directamente relacionado con el contenido principal del documento como barras laterales publicidad y enlaces a otros articulos relacionado, etc..</td>
+                     </tr>
+                </tr>
+            </table>
+            </article>
+        </section>
+        <section>
+            <h2>Elementos principales de HTML</h2>
+            <article>
+                <h3>Elemento &lt;A&gt;</h3>
+                <p>Este elemento contiene enlaces oara navegar a otras paginas</p>
+                <ul>
+                    <li>Externos</li>
+                    <li>Internos</li>
+                    <li>De ancla</li>
+                </ul>
+                <p>Algunos valores especiales que tiene en su atributo href son: </p>
+                <dl>
+                    <dt>Href="https://wu.me/1234567891"</dt>
+                    <dd>Este valor envia un wasao a un numero especificado</dd>
+                    <dt>href="mailto:example@gmail.com"</dt>
+                    <dd>Enviaba un correo a un mail espefico</dd>
+                </dl>
+            </article>
+            <article>
+                <h3>Elemento &lt;form&gt;</h3>
+                <p>
+                    Es la manera en la que los usuarios se pueden communicar 
+                    con una pagina web, gracias a este elemento se puede procesar datos
+                    de los usarios segun el objetivo de nuestra pagina 
+
+                </p>
+                <p>Es este otro formulario tipico de inicio</p>
+                <form action="procesar.py" method="post"></form>
+                <label for="username">Nombre de Usuario</label>
+                <input type="text" id="username" name="username">
+                
+            </article>
+        </section>
+
+
+    </main>
+</body>
+</html>
