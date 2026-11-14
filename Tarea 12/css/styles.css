@@ -1,0 +1,90 @@
+html{
+    font-size: 10px;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+a:link{
+    color: pink;
+    text-decoration: underline ;
+}
+
+a:visited{
+    color: navajowhite;
+    text-decoration: underline ;
+}
+
+a:focus{
+    background-color: pink;
+    color: blue;
+    border: 2px dotted yellow;
+}
+
+a:hover{
+    font-size: 12px ;
+    background-color: blueviolet;
+    color: chocolate;
+}
+
+a:active{
+    font-size: 20px ;
+    background-color: blueviolet;
+    color: chocolate;
+}
+
+#encabezado{
+    background-color: black;
+    color: white;
+    font-size: 3em;
+}
+
+#encabezado h1{
+    text-shadow: 2px 2px 2px red;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+#encabezado p{
+    text-align: center;
+    font-size: 2em;
+}
+.contenedor-enlaces{
+    border: 2px dotted red;
+    background-color: white;
+    color: red;
+}
+
+.enlaces h2{
+    text-shadow:2px 2px 2px black;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.enlaces p{
+    text-align: justify;
+}
+
+.enlaces ul{
+    border: 2px dotted orange
+
+}
+
+.enlaces ul li{
+    border: 0.2rem dotted blue;
+    margin: 0.8rem;
+/* Decimal, circle, square, lower-roman, lower-alpahe */
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 0px;
+}
+/* Orden para los estilos de los estados de un enlace (LVFHA) */
+
+
+
